@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T12:58:05.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="qP9-LmUCsJAI-6Fr79mb" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-12T13:02:34.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gdZkr_02Ys18m9MJLVMk" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2114" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2598" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -211,7 +211,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnFANh_RZcuBNeArUZ06-34" value="遍历每一个宏块&lt;br&gt;分别进行预测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MnFANh_RZcuBNeArUZ06-32">
+        <mxCell id="MnFANh_RZcuBNeArUZ06-34" value="遍历每一个宏块&lt;br&gt;分别进行预测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="MnFANh_RZcuBNeArUZ06-32">
           <mxGeometry x="0.0577" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -241,7 +241,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnFANh_RZcuBNeArUZ06-26" value="在4、8、16大小&lt;br&gt;分别进行搜索&lt;br&gt;得到代价最小&lt;br&gt;的分割方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MnFANh_RZcuBNeArUZ06-25">
+        <mxCell id="MnFANh_RZcuBNeArUZ06-26" value="在4、8、16大小&lt;br&gt;分别进行搜索&lt;br&gt;得到代价最小&lt;br&gt;的分割方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="MnFANh_RZcuBNeArUZ06-25">
           <mxGeometry x="0.0883" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -339,7 +339,7 @@
             <mxPoint x="-150" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-22" value="去块效应滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-22" value="环路滤波" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-200" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-23" value="重建宏块像素残差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -373,7 +373,7 @@
           <mxGeometry x="-250" y="805" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-34" value="参考帧序号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-230" y="825" width="70" height="30" as="geometry" />
+          <mxGeometry x="-230" y="830" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -407,6 +407,81 @@
             <mxPoint x="110" y="830" as="sourcePoint" />
             <mxPoint x="120" y="870" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-47" value="PCM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="-1140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-48" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="-1040" as="sourcePoint" />
+            <mxPoint x="490" y="-1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-49" value="直接拷贝原始数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="-1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-51" value="Skip" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="-1000" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-54" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="-920" as="sourcePoint" />
+            <mxPoint x="480" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-55" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-980" as="sourcePoint" />
+            <mxPoint x="480" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-56" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="-1020" as="sourcePoint" />
+            <mxPoint x="540" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-57" value="不能为Skip宏块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="-1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-59" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-980" as="sourcePoint" />
+            <mxPoint x="600" y="-1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="-1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-60" value="P_Skip调整为正常P宏块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="-1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-61" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-57" target="RjjcB_8dHvUKbuiJbk-D-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="-920" as="sourcePoint" />
+            <mxPoint x="600" y="-990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="-980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-62" value="B_Skip调整为B_direct宏块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="-1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-63" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="-920" as="sourcePoint" />
+            <mxPoint x="480" y="-980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="-910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-64" value="可以为Skip宏块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="-940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-65" value="不用存像素残差数据，即无需进行变换和量化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="-940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
