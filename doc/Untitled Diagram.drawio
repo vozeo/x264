@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T13:33:48.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="5PI32gc8qI-LJcCs25Rz" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-12T13:33:55.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tWvFnmPaditx9o1K0Nty" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3348" dy="2130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3384" dy="2081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -251,7 +251,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnFANh_RZcuBNeArUZ06-34" value="遍历每一个宏块&lt;br&gt;分别进行预测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MnFANh_RZcuBNeArUZ06-32">
+        <mxCell id="MnFANh_RZcuBNeArUZ06-34" value="遍历每一个宏块&lt;br&gt;分别进行预测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="MnFANh_RZcuBNeArUZ06-32">
           <mxGeometry x="0.0577" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -284,7 +284,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MnFANh_RZcuBNeArUZ06-26" value="在4、8、16大小&lt;br&gt;分别进行搜索&lt;br&gt;得到代价最小&lt;br&gt;的分割方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MnFANh_RZcuBNeArUZ06-25">
+        <mxCell id="MnFANh_RZcuBNeArUZ06-26" value="在4、8、16大小&lt;br&gt;分别进行搜索&lt;br&gt;得到代价最小&lt;br&gt;的分割方式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="MnFANh_RZcuBNeArUZ06-25">
           <mxGeometry x="0.0883" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -627,6 +627,9 @@
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-65" value="不用存像素残差数据，即无需进行变换和量化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="600" y="-940" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-67" value="Intra16x16" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-900" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="MnFANh_RZcuBNeArUZ06-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MnFANh_RZcuBNeArUZ06-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-499" y="690" as="targetPoint" />
@@ -636,11 +639,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-68" value="帧内预测" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-620" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-14" value="&lt;div&gt;写入运动矢量的&lt;/div&gt;&lt;div&gt;残差信息MVD&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-69" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-67" target="RjjcB_8dHvUKbuiJbk-D-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-730" y="-930" as="sourcePoint" />
+            <mxPoint x="-680" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="MnFANh_RZcuBNeArUZ06-35" value="计算每一种预测模式的代价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-659" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-70" value="邻近的重建宏块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-750" y="-950" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_xHddeE4xZcZdOUl6096-16" target="_xHddeE4xZcZdOUl6096-19">
           <mxGeometry relative="1" as="geometry">
@@ -652,20 +667,71 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-71" value="当前宏块的预测模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-760" y="-920" width="110" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-16" value="对于I Slice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="204" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-72" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-450" y="-890" as="sourcePoint" />
+            <mxPoint x="-410" y="-920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-19" value="&lt;div&gt;写入当前块的&lt;/div&gt;&lt;div&gt;帧内预测模式&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-74" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-67" target="RjjcB_8dHvUKbuiJbk-D-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-710" y="-760" as="sourcePoint" />
+            <mxPoint x="-350" y="-830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-840" y="-830" />
+              <mxPoint x="-350" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-23" value="写入QP信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="1650.0015789473687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-76" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;-&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159" y="775" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-24" value="写入残差信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="1750.0015789473687" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-77" target="RjjcB_8dHvUKbuiJbk-D-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="-919.3333333333334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-25" value="&lt;div&gt;写入参考帧序列信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-77" value="求像素残差" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-410" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-78" value="宏块预测值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-493" y="-950" width="66" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-79" value="当前宏块值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-640" y="-860" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-81" value="分成16个4x4小块分别做DCT变换" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-190" y="-950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-82" value="宏块像素残差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-290" y="-950" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-83" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="-830" as="sourcePoint" />
+            <mxPoint x="20" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-84" value="系数矩阵" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-60" y="-950" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
