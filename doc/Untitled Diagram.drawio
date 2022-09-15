@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T07:43:43.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PqczgiOCYkbegNuS3bcz" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:55:41.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bYwsaM8LrSZSpZb8nHCY" version="20.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4905" dy="3180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4346" dy="2885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-1630" y="510" width="830" height="355" as="geometry" />
         </mxCell>
         <mxCell id="XL536ZwLM_742y7kQojt-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1952" y="465" width="3582" height="500" as="geometry" />
+          <mxGeometry x="-1990" y="480" width="3582" height="500" as="geometry" />
         </mxCell>
         <mxCell id="eppIcETxl4--Gz-PGT__-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-100" y="590" width="603.99" height="810" as="geometry" />
@@ -188,9 +188,6 @@
         <mxCell id="MnFANh_RZcuBNeArUZ06-27" value="对当前宏块进行帧内预测，检查代价是否会更小" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1388" y="-459" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-0" value="帧内预测" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-270" y="225" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-35.55555555555566" y="125.22222222222217" as="targetPoint" />
@@ -244,90 +241,19 @@
             <mxPoint x="-51.11111111111131" y="235" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-15" target="RjjcB_8dHvUKbuiJbk-D-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-66" y="310" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-18" value="宏块像素残差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-30" y="95" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-19" value="宏块预测像素值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-118.42000000000002" y="180" width="66" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-21" value="当前待编码的宏块（真实像素值）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-529" y="90" width="199" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-22" target="RjjcB_8dHvUKbuiJbk-D-28" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-390" y="325" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-22" value="环路滤波" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-440" y="295" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-23" value="重建宏块像素残差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-30" y="295" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-25" value="宏块重建值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-290" y="295" width="69" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-28" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;滤波后的重建宏块，组成重建帧作为后续帧的运动补偿参考帧&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-620" y="310" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-300" y="325" as="sourcePoint" />
-            <mxPoint x="-250" y="245" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-300" y="255" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-31" value="帧间预测（运动补偿）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-270" y="145" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-31" edge="1">
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-380" y="175" as="sourcePoint" />
-            <mxPoint x="-380" y="165" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-33" value="该宏块帧间预测模式&lt;br&gt;运动矢量&lt;br&gt;参考帧序号&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%224x4DC%E7%B3%BB%E6%95%B0%E5%9D%97%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D14%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-120%22%20y%3D%22-1020%22%20width%3D%2290%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%224x4DC%E7%B3%BB%E6%95%B0%E5%9D%97%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D14%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-120%22%20y%3D%22-1020%22%20width%3D%2290%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-490" y="165" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-39" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-380" y="240" as="sourcePoint" />
-            <mxPoint x="-340" y="225" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-40" value="宏块帧内预测模式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-485" y="225" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-41" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="215" as="sourcePoint" />
-            <mxPoint x="-50" y="215" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-43" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-31" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-130" y="175" as="sourcePoint" />
-            <mxPoint x="-70" y="145" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-44" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="295" as="sourcePoint" />
-            <mxPoint x="-130" y="255" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-45" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-130" y="175" as="sourcePoint" />
-            <mxPoint x="-120" y="215" as="targetPoint" />
+            <mxPoint x="-341" y="175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_xHddeE4xZcZdOUl6096-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_xHddeE4xZcZdOUl6096-0" target="_xHddeE4xZcZdOUl6096-2" edge="1">
@@ -602,13 +528,15 @@
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-100" value="16x16AC系数块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="70" y="-604" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-101" target="RjjcB_8dHvUKbuiJbk-D-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-101" target="zzv51QWGkFI1V7pqH4Lt-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-485" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RjjcB_8dHvUKbuiJbk-D-101" value="帧内？&lt;br&gt;帧间？" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-630" y="175" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RjjcB_8dHvUKbuiJbk-D-104" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-101" edge="1">
+        <mxCell id="RjjcB_8dHvUKbuiJbk-D-104" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RjjcB_8dHvUKbuiJbk-D-101" edge="1" target="zzv51QWGkFI1V7pqH4Lt-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-570" y="145" as="sourcePoint" />
             <mxPoint x="-490" y="175" as="targetPoint" />
@@ -1007,20 +935,6 @@
             <mxPoint x="-1492" y="125" as="sourcePoint" />
             <mxPoint x="-1446" y="125" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="XL536ZwLM_742y7kQojt-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-884" y="125" as="sourcePoint" />
-            <mxPoint x="-794.0000000000002" y="125" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XL536ZwLM_742y7kQojt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.183;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XL536ZwLM_742y7kQojt-26" target="RjjcB_8dHvUKbuiJbk-D-76" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-190.00000000000045" y="124.99999999999955" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XL536ZwLM_742y7kQojt-26" value="确定宏块的预测模式和划分方式" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-791" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XL536ZwLM_742y7kQojt-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="RjjcB_8dHvUKbuiJbk-D-101" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1427,8 +1341,70 @@
         <mxCell id="zzv51QWGkFI1V7pqH4Lt-18" value="遍历每个宏块" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1154" y="95" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-19" target="zzv51QWGkFI1V7pqH4Lt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zzv51QWGkFI1V7pqH4Lt-19" value="一个宏块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1007" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-22" target="zzv51QWGkFI1V7pqH4Lt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-22" value="确定宏块的预测&lt;br&gt;模式和划分方式" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-869" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-24" value="当前待编码的宏块（真实像素值）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-720" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-27" value="该宏块帧间预测模式&lt;br&gt;运动矢量&lt;br&gt;参考帧序号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-28" value="&lt;span style=&quot;text-align: start;&quot;&gt;滤波后的重建宏块，组成重建帧作为后续帧的运动补偿参考帧&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-686.5" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-29" target="zzv51QWGkFI1V7pqH4Lt-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-29" value="环路滤波" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-517.5" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-32" target="zzv51QWGkFI1V7pqH4Lt-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-32" value="宏块重建值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-279" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-341" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-34" value="宏块帧内预测模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-490" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-36" target="zzv51QWGkFI1V7pqH4Lt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-36" value="宏块预测像素值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-194" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-37" target="zzv51QWGkFI1V7pqH4Lt-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-37" value="帧内预测" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-38" target="zzv51QWGkFI1V7pqH4Lt-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-38" value="帧间预测（运动&lt;br&gt;补偿）" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-350" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzv51QWGkFI1V7pqH4Lt-43" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="320" as="sourcePoint" />
+            <mxPoint x="-50" y="215" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
