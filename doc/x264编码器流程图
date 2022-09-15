@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T08:44:11.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="r1JbxQjIA9r2474GY2Fo" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-15T08:45:43.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="d5AeAAs6DRAulBxEtu1D" version="20.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4791" dy="3119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1182,12 +1182,6 @@
         <mxCell id="Ra4QuRDGpV2UXKcs9WoL-1" value="&lt;span style=&quot;caret-color: rgb(160, 161, 167); font-family: &amp;quot;Source Code Pro&amp;quot;, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, &amp;quot;Anonymous Pro&amp;quot;, &amp;quot;Droid Sans Mono&amp;quot;, Menlo, Monaco, Consolas, Inconsolata, Courier, monospace, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;判断滤波的强度&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="865" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="J4GqziByWMJJdirf2LhB-4" value="slice什么时候需要划分？背后有什么原理或者意义？" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1599" y="-20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="J4GqziByWMJJdirf2LhB-5" value="slice划分的两种方式" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1599" y="225" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ERSL6hBEvxqUfZ2V4wAA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_xHddeE4xZcZdOUl6096-34" target="_xHddeE4xZcZdOUl6096-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -1451,17 +1445,29 @@
         <mxCell id="fqeA4WcaNmzuVbgqntsy-46" value="封装好NALU的&lt;br&gt;header以及添加&lt;br&gt;起始码" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="803" y="95" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fqeA4WcaNmzuVbgqntsy-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J4GqziByWMJJdirf2LhB-5" target="zzv51QWGkFI1V7pqH4Lt-0">
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-48" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zzv51QWGkFI1V7pqH4Lt-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1720" y="290" as="sourcePoint" />
+            <mxPoint x="-1539.0000000000005" y="225" as="sourcePoint" />
             <mxPoint x="-1670" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fqeA4WcaNmzuVbgqntsy-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-0" target="J4GqziByWMJJdirf2LhB-4">
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zzv51QWGkFI1V7pqH4Lt-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1570" y="90" as="sourcePoint" />
-            <mxPoint x="-1520" y="40" as="targetPoint" />
+            <mxPoint x="-1539.0000000000005" y="40" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-50" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;表示动作&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2470" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-52" value="&lt;b&gt;表示对象&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2290" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-53" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;slice什么时候需要划分？背后有什么原理或者意义？&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1599" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fqeA4WcaNmzuVbgqntsy-54" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;slice划分的两种方式&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1599" y="225" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
