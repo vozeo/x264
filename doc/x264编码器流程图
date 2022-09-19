@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T13:33:09.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5L3MeMJt-S8gKVTZTI_z" version="20.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-19T05:34:15.896Z" agent="5.0 (Windows)" etag="wUyUEUqWtIGJIqc0UygJ" version="20.3.0" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3680" dy="2568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8475" dy="5058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1109,14 +1109,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-19" value="是否为场景切换" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1393" y="1680" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1280" y="945" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-20" value="I帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1561" y="1790" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1448" y="1055" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bd5CqOtE9YcyqSkczlT1-24" target="Bd5CqOtE9YcyqSkczlT1-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1381" y="1510" as="targetPoint" />
+            <mxPoint x="-1268" y="775" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-22" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="Bd5CqOtE9YcyqSkczlT1-21" vertex="1" connectable="0">
@@ -1128,7 +1128,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-24" value="是否允许B帧" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1292" y="1805" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1179" y="1070" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-25" value="较慢速度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bd5CqOtE9YcyqSkczlT1-28" target="Bd5CqOtE9YcyqSkczlT1-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1142,16 +1142,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-28" value="选择的速率模式是什么" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1421" y="1920" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1308" y="1185" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-29" value="全为P帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1193" y="1965" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1080" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-30" value="每隔固定数量一个P帧，其余都为B帧" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1566" y="2049" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1453" y="1314" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Bd5CqOtE9YcyqSkczlT1-31" value="每次判断B帧和P帧的代价，选择最小代价" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1313" y="2065" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1200" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ra4QuRDGpV2UXKcs9WoL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Ra4QuRDGpV2UXKcs9WoL-0" target="SOBbPgtD81vMcpq3bNDQ-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1491,10 +1491,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="llITwkw-g9xum7zY9fc9-6" target="T4MI_v_mQh63BlVN_c_i-0">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="llITwkw-g9xum7zY9fc9-6" target="T4MI_v_mQh63BlVN_c_i-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="llITwkw-g9xum7zY9fc9-6" target="T4MI_v_mQh63BlVN_c_i-4">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="llITwkw-g9xum7zY9fc9-6" target="T4MI_v_mQh63BlVN_c_i-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="llITwkw-g9xum7zY9fc9-6" value="划分的优缺点" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1506,10 +1506,10 @@
         <mxCell id="llITwkw-g9xum7zY9fc9-9" value="限制错码的传播，并使纠错变得简单" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1320" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-0" value="优点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-0" value="优点" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1421" y="-35" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-0" target="llITwkw-g9xum7zY9fc9-9">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-0" target="llITwkw-g9xum7zY9fc9-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1370" y="30" as="sourcePoint" />
             <mxPoint x="-1320" y="-20" as="targetPoint" />
@@ -1519,7 +1519,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-0" target="llITwkw-g9xum7zY9fc9-8">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-0" target="llITwkw-g9xum7zY9fc9-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1400" y="70" as="sourcePoint" />
             <mxPoint x="-1350" y="20" as="targetPoint" />
@@ -1529,23 +1529,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-4" value="缺点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-4" value="缺点" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1704" y="-35" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-4" target="T4MI_v_mQh63BlVN_c_i-8">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T4MI_v_mQh63BlVN_c_i-4" target="T4MI_v_mQh63BlVN_c_i-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1770" y="60" as="sourcePoint" />
             <mxPoint x="-1720" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4MI_v_mQh63BlVN_c_i-8" value="需要存储和传输更多的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T4MI_v_mQh63BlVN_c_i-8" value="需要存储和传输更多的数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-1869" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="my-JdbQZ2O3BRuORlOcL" name="Page-2">
-    <mxGraphModel dx="988" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
