@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T14:45:41.453Z" agent="5.0 (Windows)" etag="cDIPYDyriolOx8mrD2Dd" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-05T13:33:37.810Z" agent="5.0 (Windows)" etag="IOPnaboUgqVg_X2jCdS0" version="20.3.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="9698" dy="5018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4189" dy="2708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1592,6 +1592,51 @@
         </mxCell>
         <mxCell id="x4-9Kt-CjUqjPRDGV7XS-8" value="暂时认为当前宏块为P或B宏块" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1388" y="-980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-180" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-2" target="uuoDfVYYfAqZQ6hF3G2q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-9" value="NALU包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uuoDfVYYfAqZQ6hF3G2q-7">
+          <mxGeometry x="-0.2149" y="1" relative="1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-2" value="h264压缩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-400" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-4" value="视频流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-3" target="uuoDfVYYfAqZQ6hF3G2q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-3" value="摄像头采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-595" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-6" target="uuoDfVYYfAqZQ6hF3G2q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-6" value="传输部件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-175" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-10" target="uuoDfVYYfAqZQ6hF3G2q-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="1780" />
+              <mxPoint x="-340" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-13" value="拥塞反馈" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uuoDfVYYfAqZQ6hF3G2q-12">
+          <mxGeometry x="-0.0602" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uuoDfVYYfAqZQ6hF3G2q-10" value="拥塞控制" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="1660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
