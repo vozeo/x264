@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T06:56:38.643Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="7UitOhtKWLHY2-_-2O3n" version="20.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-06T06:59:04.531Z" agent="5.0 (Windows)" etag="5TUd1AI3VBwAovU3qYfW" version="20.4.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5903" dy="3706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5438" dy="3231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1608,27 +1608,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-2" value="h264压缩" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-400" y="1660" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="1657.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-4" value="视频流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-3" target="uuoDfVYYfAqZQ6hF3G2q-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-3" value="摄像头采集" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-660" y="1660" width="120" height="60" as="geometry" />
+          <mxGeometry x="-230" y="1657.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-6" target="uuoDfVYYfAqZQ6hF3G2q-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-6" value="传输部件" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-175" y="1660" width="120" height="60" as="geometry" />
+          <mxGeometry x="255" y="1657.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-10" target="uuoDfVYYfAqZQ6hF3G2q-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="84.79310344827627" y="1770" as="targetPoint" />
+            <mxPoint x="514.7931034482763" y="1767.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-10" value="拥塞控制" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="25" y="1660" width="120" height="60" as="geometry" />
+          <mxGeometry x="455" y="1657.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-15" target="uuoDfVYYfAqZQ6hF3G2q-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1639,19 +1639,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-15" value="接收端使用GCC算法，1）统计RTP数据包的接收信息，包括丢包数、接收RTP数据包的最高序列号等，构造RTCP RR报文，发送回发送端。2）针对每一个到达的RTP数据包，执行基于到达时间延迟的码率估计算法，得到接收端估计码率，构造RTCP REMB报文，发送回发送端。" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="1792.5" width="170" height="150" as="geometry" />
+          <mxGeometry x="430" y="1790" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="uuoDfVYYfAqZQ6hF3G2q-19" target="uuoDfVYYfAqZQ6hF3G2q-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uuoDfVYYfAqZQ6hF3G2q-19" value="接收端使用GCC算法，1)接收来自接收端的数据包信息反馈，包括来自RTCP RR报文的丢包率和来自RTCP REMB报文的接收端估计码率，综合本地的码率配置信息，计算得到目标码率A。2)把目标码率A生效于目标模块，包括PacedSender模块，RTPSender模块和ViEEncoder模块等。" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-432.5" y="1800" width="185" height="135" as="geometry" />
+          <mxGeometry x="-2.5" y="1797.5" width="185" height="135" as="geometry" />
         </mxCell>
         <mxCell id="jJ1YYxp8Y1H6XVws8dnM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jJ1YYxp8Y1H6XVws8dnM-0" target="uuoDfVYYfAqZQ6hF3G2q-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jJ1YYxp8Y1H6XVws8dnM-0" value="&lt;div&gt;webRTC准备工作，&lt;/div&gt;&lt;div&gt;媒体协商（编码格式），&lt;/div&gt;&lt;div&gt;网络协商，&lt;/div&gt;&lt;div&gt;建立P2P连接&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-910" y="1650" width="143" height="80" as="geometry" />
+          <mxGeometry x="-480" y="1647.5" width="143" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
