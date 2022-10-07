@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T01:57:39.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CtaRP0DOmnYc1ZOT_cJ1" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-07T02:59:17.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_IbOjERVIzHfwsXk39LY" version="20.4.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4586" dy="2885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1983,7 +1983,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3SFZ3lWWgRk7r9R_NQYu" name="第 3 页">
-    <mxGraphModel dx="2932" dy="-622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3158" dy="-525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2033,7 +2033,7 @@
         <mxCell id="ypQdMUD65AqNSa2McLvz-11" value="NALU的size&lt;br&gt;是否小于MTU" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-380" y="1845" width="100" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="ypQdMUD65AqNSa2McLvz-12" value="在一个RTP 包中&lt;br&gt;封装多个NALU" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="ypQdMUD65AqNSa2McLvz-12" value="在一个RTP 包中&lt;br&gt;封装多个NALU&lt;br&gt;(一般不用)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-480" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ypQdMUD65AqNSa2McLvz-13" value="在一个RTP 包中&lt;br&gt;只封装一个NALU" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -2132,7 +2132,7 @@
         <mxCell id="ypQdMUD65AqNSa2McLvz-33" value="是否为重传" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-430" y="2310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ypQdMUD65AqNSa2McLvz-35" value="重传相应RTP包" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="ypQdMUD65AqNSa2McLvz-35" value="在发送缓冲区中&lt;br&gt;找到相应RTP包&lt;br&gt;并重传" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-611" y="2445" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ypQdMUD65AqNSa2McLvz-39" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;PingFang SC, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;不重传该包&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -2276,7 +2276,7 @@
           <mxGeometry x="-993" y="1490" width="293" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nIG7cdqzM5RhZUOK29X8-1" value="调整编码器的&lt;br&gt;视频目标码率" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="1890" width="120" height="60" as="geometry" />
+          <mxGeometry x="-640" y="1907.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nIG7cdqzM5RhZUOK29X8-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nIG7cdqzM5RhZUOK29X8-1" target="ypQdMUD65AqNSa2McLvz-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
